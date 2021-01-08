@@ -1,6 +1,8 @@
 # Parameta
 Repositorio con dos servicios rest y soap 
-El servicio rest recibe como parametro un objeto json como el siguiente ejemplo validados que no sean vacios y/o nulos y que las fechas tengan formato valido (yyyy/dd/MM)
+El servicio rest recibe como parametro un objeto json como el siguiente ejemplo 
+validados que no sean vacios y/o nulos y que las fechas tengan formato valido (yyyy/dd/MM).
+
 {
     "nombres": "Jhonatan",
     "apellidos": "Realpe",
@@ -11,6 +13,7 @@ El servicio rest recibe como parametro un objeto json como el siguiente ejemplo 
     "cargo": "No hace nada",
     "salario": 2000000
 }
+
  y retorna un Json como el siguiente con información de tiempo de permanencia en la compañia y edad del empleado 
  
  {
