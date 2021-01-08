@@ -1,0 +1,27 @@
+//http://localhost:8080/ws-empleado/EmpleadoServiceImpl?WSDL
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:emp="http://ws-empleado/empleado">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <emp:createEmpleado>
+         <!--Optional:-->
+         <arg0>
+            <!--Optional:-->
+            <apellidos>PruebaApellidoSoap</apellidos>
+            <!--Optional:-->
+            <cargo>AministradorPruebaSoap</cargo>
+            <!--Optional:-->
+            <fechaNacimiento>2000/12/12</fechaNacimiento>
+            <!--Optional:-->
+            <fechaVinculacion>2020/04/03</fechaVinculacion>
+            <!--Optional:-->
+            <nombres>NombrePruebaSoap</nombres>
+            <!--Optional:-->
+            <numeroDocumento>121234565</numeroDocumento>
+            <!--Optional:-->
+            <salario>20000</salario>
+            <!--Optional:-->
+            <tipoDocumento>CedulaSoap</tipoDocumento>
+         </arg0>
+      </emp:createEmpleado>
+   </soapenv:Body>
+</soapenv:Envelope>

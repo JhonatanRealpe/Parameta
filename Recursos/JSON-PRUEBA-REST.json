@@ -1,0 +1,10 @@
+{
+    "nombres": "PruebaNombre",
+    "apellidos": "PruebaApellido",
+    "tipoDocumento": "Cedula",
+    "numeroDocumento": "1023923232",
+    "fechaNacimiento": "2003/07/01",
+    "fechaVinculacion": "2021/08/01",
+    "cargo": "Administrador",
+    "salario": 2000000
+}
